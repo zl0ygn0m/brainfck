@@ -84,7 +84,6 @@ height: 1126px; }
 
         grid-column: 2/3;
         grid-row: 2;
-        background-image: url(../img/logo.png);
         background-repeat: no-repeat;
         height: 90px;
         width: 90px;
@@ -784,19 +783,19 @@ grid-row: 5;
         top: 166px;}
 .sliderblock{position: absolute;
 
-    width: 930px;
-    
-    height: 335px;
-    
-    background: rgba(0, 0, 0, 0.4);
-    
-    justify-content: space-between;
-    
-    align-items: center;
-    
-    left: 301px;
-    
-    top: 280px;}
+width: 930px;
+
+height: 335px;
+
+background: rgba(0, 0, 0, 0.4);
+
+justify-content: space-between;
+
+align-items: center;
+
+left: 301px;
+
+top: 280px;}
 
 
 
@@ -836,6 +835,7 @@ grid-row: 5;
         
 width: 360px;
 height: 422px;
+background-image: url(../img/newhouses.png);;
 
     
     }
@@ -849,6 +849,30 @@ height: 422px;
         
         height: 120px;
         
-        width: 120px;}
+        width: 120px;
+    z-index: 0;}
         .brownsqmin{visibility: hidden;}
-}
+
+.logoimg{height: 24px;
+
+    width: 24px;
+    
+    height: 28px;
+    
+    width: 28px;
+    
+    position: absolute;
+    
+    left: 163px;
+    
+    top: 44px;
+    
+    z-index: 1;}
+    .hill,.hill2,.brownsqtxt,.school,.submenu{visibility: hidden;}
+.name{font-size: 18px;
+
+    top: -162px;
+    
+    left: -33px;
+    
+    position: relative;}}
