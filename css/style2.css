@@ -1,0 +1,607 @@
+html, body {
+
+    height: 100%;
+    width: 100%;
+    background-color: darkolivegreen;
+    padding: 0px;
+
+}
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 3000px 600px 600px;
+    overflow: hidden;
+
+width: 1510px;margin: auto;}
+header {
+
+    background-color: white;
+    position: relative;
+    height: 600px;
+    display: grid;
+    grid-column: 1/13;
+    grid-row: 1/2;
+    grid-template-columns: 700px 606px repeat(3,69px);
+    grid-gap: 0px;
+
+}
+    .hill {
+
+        grid-column: 1/13;
+        grid-row: 2/7;
+        }
+        .subhill {
+
+            left: -97px;
+            top: -780px;
+            background-color: #ffff;
+            border: 100px solid #fff;
+            border-top: 100px solid transparent;
+            border-right: 100px solid transparent;
+            position: relative;
+            transform: rotate(-47deg);
+            width: 1209px;
+            height: 1132px;}
+            .hill2 {
+
+                grid-column: 2/13;
+                grid-row: 2/7;}
+                .subhill2 {
+
+                    left: 651px;
+                    top: -389px;
+                    background-color: #ffff;
+                    border: 100px solid #fff;
+                    border-top: 100px solid transparent;
+
+border-right: 65px solid transparent;
+
+position: relative;
+
+transform: rotate(-57deg);
+
+width: 689px;
+
+height: 1126px; }
+.menu {
+
+    font-size: 26px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);}
+    .school {
+
+        margin-top: 30px;
+        z-index: 2;
+        grid-column: 2/9;
+        grid-row: 1;
+        font-size: 25px;
+        padding-left: 20px;
+    
+    }
+    .logo {
+
+        grid-column: 2/3;
+        grid-row: 2;
+        background-image: url(../img/logo.png);
+        background-repeat: no-repeat;
+        height: 90px;
+        width: 90px;
+        margin-left: -22px;
+        align-self: center;
+        z-index: 1;
+        margin-top: 25px;
+    
+    }
+    .name {
+
+        grid-row: 2;
+        grid-column: 4/6;
+        font-size: 50px;
+        align-self: center;
+        font-family: 'Puritan';
+        z-index: 1;
+        margin-top: 25px;
+    
+    }
+    .submenu {
+
+        grid-row: 3;
+
+grid-column: 1/6;
+
+z-index: 1;
+
+margin-top: 25px;
+    
+    }
+    .line {
+
+        display: flex;
+        justify-content: space-around;
+        width: 599px;
+        list-style-type: none;
+        font-size: 18px;
+        margin-left: -10px;
+    
+    }
+    li a {
+        text-decoration: none;
+        
+        color:black;
+    }
+    li a:hover { border-top: 1px solid black;
+        transition-property: all;
+        transition-duration: 200ms;
+    
+    } 
+    .phone {
+
+        margin-top: 28px;
+        margin-right: 90px;
+        z-index: 2;
+        grid-column: 2;
+        font-size: 24px;
+        justify-self: flex-end;
+    
+    }
+    .inst {
+
+        grid-column: 3;
+        background-image: url(../img/instagram.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin-top: 30px;
+        z-index: 2;
+        font-family: 'Ubuntu';
+        margin-left: -122px;
+    
+    }
+    .vk {
+
+        grid-column: 4;
+        background-image: url(../img/vk.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin-top: 26px;
+        margin-left: -100px;
+        z-index: 2;
+        font-family: 'Ubuntu';
+    
+    }
+    .facebook {
+
+        grid-column: 5;
+        background-image: url(../img/facebook.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin-top: 30px;
+        margin-left: -72px;
+        z-index: 2;
+        font-family: 'Ubuntu';
+    
+    }
+    .girl-block {
+
+        height: 643px;
+
+width: 643px;
+
+position: absolute;
+
+right: 206px;
+
+top: 264px;
+
+transform: rotate(45deg);
+
+overflow: hidden;
+
+z-index: 1;
+    
+    }
+    .girl {
+
+        position: absolute;
+        height: 818px;
+        width: 966px;
+        top: -55px;
+        right: -175px;
+        transform: rotate(-45deg);}
+        .girlsmallsq {
+
+            height: 65px;
+            width: 65px;
+            background-color: #BACBDC;
+            position: relative;
+        
+        }
+        .houses {
+
+            height: 218px;
+            width: 218px;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            overflow: hidden;
+        
+        }
+        .housesimg {
+
+            transform: rotate(-45deg);
+            height: 318px;
+            width: 318px;
+            top: 12px;
+            left: 9px;
+            margin-top: -51px;
+            margin-left: -49px;}
+        .brownsq {
+
+            background-color: #BA9898;
+
+position: absolute;
+
+height: 480px;
+
+width: 480px;
+
+grid-column: 2/9;
+
+grid-row: 1/3;
+
+transform: rotate(45deg);
+
+margin-left: -474px;
+
+margin-top: 458px;
+
+z-index: 2;
+        
+        }
+        .brownsqtxt {
+
+            position: relative;
+            top: 129px;
+            left: 109px;
+            height: 293px;
+            width: 360px;
+            transform: rotate(-45deg);
+            font-size: 19px;
+            font-family: 'Ubuntu';
+            text-align: center;
+        
+        }.brownsqmin{height: 75px;
+
+            width: 75px;
+            
+            top: -313px;
+            
+            position: relative;
+            
+            background-color: #ffff;
+            
+            
+            left: -1px;}
+    .brownsqmicr{height: 36px;
+    
+                width: 36px;
+                
+                background-color: #435465;}
+button{width: 210px;
+    
+            height: 45px;
+                    
+         border: solid 2px;
+                    
+         justify-self: center;
+                    
+         align-self: flex-end;
+                    
+         background-color: rgba(0, 0, 0, 0);}
+         .langsq {
+            grid-column: 2/9;
+
+height: 206px;
+
+width: 206px;
+
+grid-row: 2;
+
+margin-top: 245px;
+
+transform: rotate(45deg);
+
+margin-left: -78px;
+
+z-index: 2;
+
+background-color: #BACBDC;
+
+position: absolute;}
+.minilangsq {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    background-image: url(../img/ocean.png);
+    background: no-repeat cover fixed;
+    left: 162px;
+
+top: -221px;
+transform: rotate(-90deg);
+}
+
+.microlangsq {
+    height: 35px;
+
+width: 35px;
+
+position: relative;
+
+background-color: #BACBDC;
+
+left: 170px;
+
+top: -266px;
+}
+            .language {
+
+            transform: rotate(-45deg);
+            margin-left: 7px;
+            margin-top: -3px;
+            text-align: center;
+            font-size: 19px;
+        
+        }
+        content {
+
+            display: grid;
+    grid-column: 1 / 13;
+    grid-row: 2 / 3;
+    background-image: url(../img/ocean.png);
+    padding-top: 790px;
+    grid-template-columns: 500px 500px 510px;
+    grid-template-rows: 150px 100px 300px 200px;
+
+
+        
+        }
+        .sqlogo {
+
+            height: 117px;
+
+width: 130px;
+
+position: relative;
+
+left: 194px;
+
+grid-row: 1;
+
+grid-column: 2;
+        
+        }
+        .ed {
+            grid-column: 2;
+
+grid-row: 1/2;
+
+position: relative;
+
+top: 152px;
+
+margin-top: 7px;
+
+color: white;
+
+z-index: 3;
+
+font-size: 24px;
+
+margin-left: 14px;
+        
+        }
+        .firstblock{grid-row: 3;
+
+            height: 250px;
+            
+            width: 450px;
+            
+            background-color: rgba(0, 0, 0, 0.4);
+            
+            justify-self: flex-end;
+            
+            z-index: 1;
+            
+            position: relative;
+            
+            display: grid;
+            
+            color: white;
+            
+            padding-top: 0px;
+            
+            padding-left: 60px;
+            
+            padding-right: 80px;
+            
+            font-size: 14px;
+            
+            font-family: 'Ubuntu', sans-serif;
+            left: -9px}
+            
+    .ed11{font-size: 18px;
+
+        font-family: 'Ubuntu', sans-serif;
+        
+        display: grid;
+        
+        color: white;
+        
+        padding-top: 30px;
+        
+        padding-left: 0px;}
+    
+        .edlink {
+            display: grid;
+
+            color: white;
+            
+            padding-bottom: 0px;
+            
+            padding-left: 0px;
+            
+            vertical-align: bottom;
+            
+            font-size: 14px;
+            
+            font-family: 'Ubuntu', sans-serif;}
+        
+    .ed12{font-size: 14px;
+
+        font-family: 'Ubuntu', sans-serif;
+        
+        display: grid;
+        
+        color: white;
+        
+        padding-top: 3px;
+        
+        padding-right: 80px;}
+            .ed13{padding-top: 0px;}
+            .arrow1 {
+                position: relative;
+        left: 166px;
+        top: -42px;
+    
+    
+    }
+.secondblock{height: 250px;
+
+    width: 450px;
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    justify-self: center;
+    
+    grid-row: 3;
+    
+    grid-column: 2;
+    
+    margin-left: 8px;
+padding-left: 60px;}
+    .point1{height: 20px;
+
+        width: 20px;
+        
+        background-color: white;
+        
+        transform: rotate(45deg);
+        
+        justify-self: center;
+        
+        grid-row: 2;
+        
+        margin-top: 212px;
+        
+        margin-left: 520px;}
+        .ed21{font-size: 18px;
+
+            font-family: 'Ubuntu', sans-serif;
+            
+            display: grid;
+            
+            color: white;
+            
+            padding-top: 30px;
+            
+            padding-left: 0px;}
+            .ed22{font-size: 14px;
+                font-family: 'Ubuntu', sans-serif;
+                display: grid;
+                color: white;
+                padding-top: 15px;
+                padding-right: 100px;
+            
+            }
+                .ed23{padding-top: 17px;
+
+                }
+                .arrow2{position: relative;
+
+                    left: 196px;
+                    
+                    top: -51px;}
+.thirdblock{height: 250px;
+
+    width: 450px;
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    justify-self: center;
+    
+    grid-row: 3;
+    
+    grid-column: 3;
+    
+    margin-left: -20px;
+padding-left: 60px;}
+.ed31{font-size: 18px;
+
+    font-family: 'Ubuntu', sans-serif;
+    
+    display: grid;
+    
+    color: white;
+    
+    padding-top: 30px;
+    
+    padding-left: 0px;}
+.ed32{font-size: 14px;
+
+    font-family: 'Ubuntu', sans-serif;
+    
+    display: grid;
+    
+    color: white;
+    
+    padding-top: 25px;
+    
+    padding-right: 130px;}
+.ed33{padding-top: 23px;}
+.arrow3{position: relative;
+
+    left: 169px;
+    
+    top: -33px;}
+    .point2{height: 20px;
+        height: 20px;
+        width: 20px;
+        background-color: white;
+        transform: rotate(45deg);
+        justify-self: center;
+        margin-top: 212px;
+        margin-left: 495px;
+        grid-row: 2;
+    
+    
+    }
+    .shadow {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+        grid-column: 1/4;
+        grid-row: 4;
+    
+}
+.advanteges {
+    height: 830px;
+
+background-image: url(../img/bluebg.svg);
+
+position: relative;
+
+overflow: hidden;
+
+grid-column: 1/13;
+
+grid-row: 5;
+}
